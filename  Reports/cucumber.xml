@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="5" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="38.021861">
+<testcase classname="Login functionality for automation practis application" name="User verify the login functionlity with valid credentials" time="1.667437">
+<failure message="java.lang.Exception: Url is invalid&#13;&#10;&#9;at org.cucumber.Baseclass.BaseClass.getUrl(BaseClass.java:61)&#13;&#10;&#9;at org.cucumber.Stepdefinition.Stepdefinition.user_hit_the_Automation_Practice_Application(Stepdefinition.java:28)&#13;&#10;&#9;at ✽.Given User hit the Automation Practice Application(Automationpractice.feature:7)&#13;&#10;"><![CDATA[Given User hit the Automation Practice Application..........................failed
+And User wait for page load.................................................skipped
+When User click sign in button in the header................................skipped
+And User wait for page load.................................................skipped
+And User enter the email address "hello27484@gmail.com".....................skipped
+And User click on create account button.....................................skipped
+Then User validate the user email id........................................skipped
+
+StackTrace:
+java.lang.Exception: Url is invalid
+	at org.cucumber.Baseclass.BaseClass.getUrl(BaseClass.java:61)
+	at org.cucumber.Stepdefinition.Stepdefinition.user_hit_the_Automation_Practice_Application(Stepdefinition.java:28)
+	at ✽.Given User hit the Automation Practice Application(Automationpractice.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="Login functionality for automation practis application" name="User enter his detail to register" time="6.152491">
+<failure message="java.lang.Exception: element is not accepting click&#13;&#10;&#9;at org.cucumber.Baseclass.BaseClass.clicktext(BaseClass.java:161)&#13;&#10;&#9;at org.cucumber.Stepdefinition.Stepdefinition.user_click_on_mr_button(Stepdefinition.java:66)&#13;&#10;&#9;at ✽.And User click on mr button(Automationpractice.feature:17)&#13;&#10;"><![CDATA[And User click on mr button.................................................failed
+And User enter first name "Ak"..............................................skipped
+And User enter last name	"s"................................................skipped
+And User enter the password	"abc123"........................................skipped
+And User Dropdown and click on days by value "10"...........................skipped
+And user Dropdown and click on months by value "2"..........................skipped
+And user Dropdown and click on years by value	"1994"........................skipped
+And user click on newsletter to suscribe button.............................skipped
+And user enter the first name	"hbk".........................................skipped
+And user enter the last name	"H"............................................skipped
+And user enter the Company name	"accel".....................................skipped
+And user enter the first Address	"1/22 anna nagar"..........................skipped
+And user enter the Second Address	"west"....................................skipped
+And user enter the city "chennai"...........................................skipped
+And user enter the postcode number	"00000"..................................skipped
+And user Dropdown and click state by value	"4"..............................skipped
+And user enter the country "United States"..................................skipped
+And user enter the Additional information	"addition"........................skipped
+And user enter the home phone number"044248686..............................skipped
+And user enter the mobile number "7338993263"...............................skipped
+And user enter the reference email address "abcas@gmail.com"................skipped
+And User click register button to complete register.........................skipped
+Then user valid and register................................................skipped
+
+StackTrace:
+java.lang.Exception: element is not accepting click
+	at org.cucumber.Baseclass.BaseClass.clicktext(BaseClass.java:161)
+	at org.cucumber.Stepdefinition.Stepdefinition.user_click_on_mr_button(Stepdefinition.java:66)
+	at ✽.And User click on mr button(Automationpractice.feature:17)
+]]></failure>
+</testcase>
+<testcase classname="Login functionality for automation practis application" name="user select Tshirt and add to cart" time="6.023511">
+<failure message="java.lang.Exception: element is not accepting value&#13;&#10;&#9;at org.cucumber.Baseclass.BaseClass.sendText(BaseClass.java:152)&#13;&#10;&#9;at org.cucumber.Stepdefinition.Stepdefinition.user_enter_on_home_searchtext(Stepdefinition.java:225)&#13;&#10;&#9;at ✽.And user enter on home searchtext &quot;T-shirts&quot;(Automationpractice.feature:43)&#13;&#10;"><![CDATA[And user enter on home searchtext "T-shirts"................................failed
+And user click on search button.............................................skipped
+And user mouseover on tshirt first dress....................................skipped
+And user click on add to cart...............................................skipped
+And user print text on product details......................................skipped
+And user click on continue shopping.........................................skipped
+Then User wait for page load................................................skipped
+
+StackTrace:
+java.lang.Exception: element is not accepting value
+	at org.cucumber.Baseclass.BaseClass.sendText(BaseClass.java:152)
+	at org.cucumber.Stepdefinition.Stepdefinition.user_enter_on_home_searchtext(Stepdefinition.java:225)
+	at ✽.And user enter on home searchtext "T-shirts"(Automationpractice.feature:43)
+]]></failure>
+</testcase>
+<testcase classname="Login functionality for automation practis application" name="user select dress and add to cart" time="18.142938">
+<failure message="java.lang.Exception: element is not accepting click&#13;&#10;&#9;at org.cucumber.Baseclass.BaseClass.clicktext(BaseClass.java:161)&#13;&#10;&#9;at org.cucumber.Stepdefinition.Stepdefinition.user_click_on_Causal_dress_and_enter_the_next_page(Stepdefinition.java:274)&#13;&#10;&#9;at ✽.And user click on Causal dress and enter the next page(Automationpractice.feature:54)&#13;&#10;"><![CDATA[And user mouseover on dress to enter any category...........................passed
+And user click on Causal dress and enter the next page......................failed
+And user click on size in short,medium or large.............................skipped
+And user click on composition checkbox......................................skipped
+And user click on styles checkbox...........................................skipped
+And user click on properties checkbox.......................................skipped
+And user click on manufacture checkbox......................................skipped
+And user click on condition checking........................................skipped
+Then user mouseover on stock................................................skipped
+And user click on stock to add to cart......................................skipped
+And user click on  proceed to checkout......................................skipped
+Then User wait for page load................................................skipped
+
+StackTrace:
+java.lang.Exception: element is not accepting click
+	at org.cucumber.Baseclass.BaseClass.clicktext(BaseClass.java:161)
+	at org.cucumber.Stepdefinition.Stepdefinition.user_click_on_Causal_dress_and_enter_the_next_page(Stepdefinition.java:274)
+	at ✽.And user click on Causal dress and enter the next page(Automationpractice.feature:54)
+]]></failure>
+</testcase>
+<testcase classname="Login functionality for automation practis application" name="user proceed to checkout" time="6.035484">
+<failure message="java.lang.Exception: element is not accepting click&#13;&#10;&#9;at org.cucumber.Baseclass.BaseClass.clicktext(BaseClass.java:161)&#13;&#10;&#9;at org.cucumber.Stepdefinition.Stepdefinition.user_click_and_proceed_to_checkout_in_summary(Stepdefinition.java:343)&#13;&#10;&#9;at ✽.And user click and proceed to checkout in summary(Automationpractice.feature:68)&#13;&#10;"><![CDATA[And user click and proceed to checkout in summary...........................failed
+And user click and proceed to checkout in address...........................skipped
+And user click and proceed to checkout in shipcheck.........................skipped
+And use click and proceed to checkout in shipping...........................skipped
+Then User wait for page load................................................skipped
+
+StackTrace:
+java.lang.Exception: element is not accepting click
+	at org.cucumber.Baseclass.BaseClass.clicktext(BaseClass.java:161)
+	at org.cucumber.Stepdefinition.Stepdefinition.user_click_and_proceed_to_checkout_in_summary(Stepdefinition.java:343)
+	at ✽.And user click and proceed to checkout in summary(Automationpractice.feature:68)
+]]></failure>
+</testcase>
+</testsuite>

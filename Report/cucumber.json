@@ -1,0 +1,866 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User verify the login functionlity with valid credentials",
+        "description": "",
+        "id": "login-functionality-for-automation-practis-application;user-verify-the-login-functionlity-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11221775874,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User hit the Automation Practice Application",
+            "match": {
+              "location": "Stepdefinition.user_hit_the_Automation_Practice_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4999420112,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User wait for page load",
+            "match": {
+              "location": "Stepdefinition.user_wait_for_page_load()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3846102332,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click sign in button in the header",
+            "match": {
+              "location": "Stepdefinition.user_click_sign_in_button_in_the_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4999729043,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User wait for page load",
+            "match": {
+              "location": "Stepdefinition.user_wait_for_page_load()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350439175,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter the email address \"hello255484@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hello255484@gmail.com",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179070968,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on create account button",
+            "match": {
+              "location": "Stepdefinition.user_click_on_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000148821,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User validate the user email id",
+            "match": {
+              "location": "Stepdefinition.user_validate_the_user_email_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@TC1"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "User enter his detail to register",
+        "description": "",
+        "id": "login-functionality-for-automation-practis-application;user-enter-his-detail-to-register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 127429628,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on mr button",
+            "match": {
+              "location": "Stepdefinition.user_click_on_mr_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167650766,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enter first name \"Ak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ak",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefinition.user_enter_first_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100550534,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter last name\t\"s\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "s",
+                  "offset": 22
+                }
+              ],
+              "location": "Stepdefinition.user_enter_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177281526,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter the password\t\"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281029142,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Dropdown and click on days by value \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 42
+                }
+              ],
+              "location": "Stepdefinition.user_Dropdown_and_click_on_days_by_value(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198937009,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user Dropdown and click on months by value \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 44
+                }
+              ],
+              "location": "Stepdefinition.user_Dropdown_and_click_on_months_by_value(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180926610,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user Dropdown and click on years by value\t\"1994\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1994",
+                  "offset": 43
+                }
+              ],
+              "location": "Stepdefinition.user_Dropdown_and_click_on_years_by_value(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103681930,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click on newsletter to suscribe button",
+            "match": {
+              "location": "Stepdefinition.user_click_on_newsletter_to_suscribe_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106635766,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enter the first name\t\"hbk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hbk",
+                  "offset": 27
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_first_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195981633,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter the last name\t\"H\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "H",
+                  "offset": 26
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154718749,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enter the Company name\t\"accel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "accel",
+                  "offset": 29
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_Company_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263303555,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user enter the first Address\t\"1/22 anna nagar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1/22 anna nagar",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_first_Address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124467580,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enter the Second Address\t\"west\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "west",
+                  "offset": 31
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_Second_Address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202120748,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter the city \"chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chennai",
+                  "offset": 21
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_city(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151784926,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enter the postcode number\t\"00000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000",
+                  "offset": 32
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_postcode_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195668083,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user Dropdown and click state by value\t\"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 40
+                }
+              ],
+              "location": "Stepdefinition.user_Dropdown_and_click_state_by_value(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228031994,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enter the country \"United States\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "United States",
+                  "offset": 24
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_country(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163158943,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enter the Additional information\t\"addition\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addition",
+                  "offset": 39
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_Additional_information(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218646531,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user enter the home phone number\"044248686",
+            "match": {
+              "arguments": [
+                {
+                  "val": "044248686",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_home_phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200079337,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user enter the mobile number \"7338993263\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7338993263",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_mobile_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241295521,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enter the reference email address \"abcas@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcas@gmail.com",
+                  "offset": 40
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_reference_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1955161311,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User click register button to complete register",
+            "match": {
+              "location": "Stepdefinition.user_click_register_button_to_complete_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4999764453,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user valid and register",
+            "match": {
+              "location": "Stepdefinition.user_valid_and_register()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@TC2"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "user select Tshirt and add to cart",
+        "description": "",
+        "id": "login-functionality-for-automation-practis-application;user-select-tshirt-and-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 280523151,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user enter on home searchtext \"T-shirts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "T-shirts",
+                  "offset": 31
+                }
+              ],
+              "location": "Stepdefinition.user_enter_on_home_searchtext(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2179707818,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user click on search button",
+            "match": {
+              "location": "Stepdefinition.user_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 477803630,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user mouseover on tshirt first dress",
+            "match": {
+              "location": "Stepdefinition.user_mouseover_on_tshirt_first_dress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150259769,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user click on add to cart",
+            "match": {
+              "location": "Stepdefinition.user_click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56089029,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user print text on product details",
+            "match": {
+              "location": "Stepdefinition.user_print_text_on_product_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 751119749,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user click on continue shopping",
+            "match": {
+              "location": "Stepdefinition.user_click_on_continue_shopping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4999481180,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User wait for page load",
+            "match": {
+              "location": "Stepdefinition.user_wait_for_page_load()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@TC3"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "user select dress and add to cart",
+        "description": "",
+        "id": "login-functionality-for-automation-practis-application;user-select-dress-and-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 197030563,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user mouseover on dress to enter any category",
+            "match": {
+              "location": "Stepdefinition.user_mouseover_on_dress_to_enter_any_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3237232200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user click on Causal dress and enter the next page",
+            "match": {
+              "location": "Stepdefinition.user_click_on_Causal_dress_and_enter_the_next_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124619994,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user click on size in short,medium or large",
+            "match": {
+              "location": "Stepdefinition.user_click_on_size_in_short_medium_or_large()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108552476,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user click on composition checkbox",
+            "match": {
+              "location": "Stepdefinition.user_click_on_composition_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109951392,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user click on styles checkbox",
+            "match": {
+              "location": "Stepdefinition.user_click_on_styles_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120966186,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user click on properties checkbox",
+            "match": {
+              "location": "Stepdefinition.user_click_on_properties_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119706340,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user click on manufacture checkbox",
+            "match": {
+              "location": "Stepdefinition.user_click_on_manufacture_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123438664,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user click on condition checking",
+            "match": {
+              "location": "Stepdefinition.user_click_on_condition_checking()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153216172,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user mouseover on stock",
+            "match": {
+              "location": "Stepdefinition.user_mouseover_on_stock()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 116536457,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user click on stock to add to cart",
+            "match": {
+              "location": "Stepdefinition.user_click_on_stock_to_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3459061956,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user click on  proceed to checkout",
+            "match": {
+              "location": "Stepdefinition.user_click_on_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4999662844,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User wait for page load",
+            "match": {
+              "location": "Stepdefinition.user_wait_for_page_load()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 51,
+            "name": "@TC4"
+          }
+        ]
+      },
+      {
+        "line": 67,
+        "name": "user proceed to checkout",
+        "description": "",
+        "id": "login-functionality-for-automation-practis-application;user-proceed-to-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1834371145,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user click and proceed to checkout in summary",
+            "match": {
+              "location": "Stepdefinition.user_click_and_proceed_to_checkout_in_summary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1434112402,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user click and proceed to checkout in address",
+            "match": {
+              "location": "Stepdefinition.user_click_and_proceed_to_checkout_in_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113535921,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user click and proceed to checkout in shipcheck",
+            "match": {
+              "location": "Stepdefinition.user_click_and_proceed_to_checkout_in_shipcheck()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1550390731,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "use click and proceed to checkout in shipping",
+            "match": {
+              "location": "Stepdefinition.use_click_and_proceed_to_checkout_in_shipping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4999656686,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User wait for page load",
+            "match": {
+              "location": "Stepdefinition.user_wait_for_page_load()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 66,
+            "name": "@TC5"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality for automation practis application",
+    "description": "It contains 3 scenarios includes Valid Crendentails, Invalid crendentials etc",
+    "id": "login-functionality-for-automation-practis-application",
+    "keyword": "Feature",
+    "uri": "Automationpractice.feature"
+  }
+]

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="93.838074">
+<testcase classname="Login functionality for automation practis application" name="User verify the login functionlity with valid credentials" time="36.422344">
+<system-out><![CDATA[Given User hit the Automation Practice Application..........................passed
+And User wait for page load.................................................passed
+When User click sign in button in the header................................passed
+And User wait for page load.................................................passed
+And User enter the email address "hello27484@gmail.com".....................passed
+And User click on create account button.....................................passed
+Then User validate the user email id........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality for automation practis application" name="User enter his detail to register" time="11.423859">
+<system-out><![CDATA[And User click on mr button.................................................passed
+And User enter first name "Ak"..............................................passed
+And User enter last name	"s"................................................passed
+And User enter the password	"abc123"........................................passed
+And User Dropdown and click on days by value "10"...........................passed
+And user Dropdown and click on months by value "2"..........................passed
+And user Dropdown and click on years by value	"1994"........................passed
+And user click on newsletter to suscribe button.............................passed
+And user enter the first name	"hbk".........................................passed
+And user enter the last name	"H"............................................passed
+And user enter the Company name	"accel".....................................passed
+And user enter the first Address	"1/22 anna nagar"..........................passed
+And user enter the Second Address	"west"....................................passed
+And user enter the city "chennai"...........................................passed
+And user enter the postcode number	"00000"..................................passed
+And user Dropdown and click state by value	"4"..............................passed
+And user enter the country "United States"..................................passed
+And user enter the Additional information	"addition"........................passed
+And user enter the home phone number"044248686..............................passed
+And user enter the mobile number "7338993263"...............................passed
+And user enter the reference email address "abcas@gmail.com"................passed
+And User click register button to complete register.........................passed
+Then user valid and register................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality for automation practis application" name="user select Tshirt and add to cart" time="8.836813">
+<system-out><![CDATA[And user enter on home searchtext "T-shirts"................................passed
+And user click on search button.............................................passed
+And user mouseover on tshirt first dress....................................passed
+And user click on add to cart...............................................passed
+And user print text on product details......................................passed
+And user click on continue shopping.........................................passed
+Then User wait for page load................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality for automation practis application" name="user select dress and add to cart" time="26.279267">
+<system-out><![CDATA[And user mouseover on dress to enter any category...........................passed
+And user click on Causal dress and enter the next page......................passed
+And user click on size in short,medium or large.............................passed
+And user click on composition checkbox......................................passed
+And user click on styles checkbox...........................................passed
+And user click on properties checkbox.......................................passed
+And user click on manufacture checkbox......................................passed
+And user click on condition checking........................................passed
+Then user mouseover on stock................................................passed
+And user click on stock to add to cart......................................passed
+And user click on  proceed to checkout......................................passed
+Then User wait for page load................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality for automation practis application" name="user proceed to checkout" time="10.875791">
+<system-out><![CDATA[And user click and proceed to checkout in summary...........................passed
+And user click and proceed to checkout in address...........................passed
+And user click and proceed to checkout in shipcheck.........................passed
+And use click and proceed to checkout in shipping...........................passed
+Then User wait for page load................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
